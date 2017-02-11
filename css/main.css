@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-size: cover;
+    font-family: 'Space Mono', monospace;
+}
+p,h1 {
+  z-index: 5;
+  position: relative;
+  color: #F99486;
+}
+.button {
+  background-color: #FFFBC4;
+  color: #F99486;
+  border: 2px solid #F99486;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 8px 2px;
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+}
+.button:hover {
+    background-color: #F99486;
+    color: #fff;
+    border: 2px solid #e7e7e7;
+}
+.form-control {
+  /*min-width: 15px;
+  width: 250px;*/
+  width: 250px;
+  margin: 6px;
+  display: inline-block;
+  border: 1px solid #F99486;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:#F99486;
+}
+.ship {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: infinite;
+    -webkit-animation-iteration-count: 10;
+    animation-duration: 10s;
+    animation-iteration-count: 100;
+}
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:500px; top:100px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:50px; top:0px;}
+    100% {left:0px; top:0px;}
+}
